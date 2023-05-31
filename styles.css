@@ -1,0 +1,101 @@
+body {
+    margin: 10;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(#2a9d8f, #fefae0);
+}
+
+h2,
+h3,
+h4,p{
+    margin: 0;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.span-tag{
+    border-bottom: 3px solid black;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url("images/collectrate.jpeg");
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.main-heading {
+    text-shadow: 0 0 1px #222222;
+    padding: 7px;
+    color: antiquewhite;
+    background-color: #264653;
+    margin-bottom: 3px;
+    border-radius: 20px;
+}
+
+.summary-heading {
+    text-shadow: 0 0 1px #222222;
+    padding: 7px;
+    color: white;
+    background-color: #2a9d8f;
+    border-radius: 20px;
+}
+
+.history-para{
+    height:180px ;
+    background-color: antiquewhite;
+    color: #222222;
+    margin-bottom: 7px;
+}
+.place-img{
+    width: 300px;
+    border: 7px solid #2a9d8f;
+    border-radius: 45%;
+}
+
+#budha-statue{
+    height: 200px;
+}
+
+#stupa{
+    height: 200px;
+}
+
+#collectrate{
+    height: 200px;
+}
+
+.content{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.img-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-p{
+    margin-top: 10px;
+}
